@@ -3,9 +3,13 @@
 	name = Keeler Russell
 [core]
 	editor = vim
+	pager = less -F -X
 [alias]
-	ls = log --pretty=oneline -n 20 --graph --abbrev-commit
+	ls = log --pretty=oneline --graph --abbrev-commit
+	br = branch
 	st = status
 	co = checkout
 	ci = commit
 	cm = commit -m
+ 	dc = diff --cached
+
