@@ -1,0 +1,11 @@
+[user]
+	email = keeler.russell@gmail.com
+	name = Keeler Russell
+[core]
+	editor = vim
+[alias]
+	ls = log --pretty=oneline -n 20 --graph --abbrev-commit
+	st = status
+	co = checkout
+	ci = commit
+	cm = commit -m
