@@ -9,6 +9,7 @@
 	br = branch
 	st = status
 	co = checkout
+	cob = checkout -b
 	ci = commit
 	cm = commit -m
  	dc = diff --cached
